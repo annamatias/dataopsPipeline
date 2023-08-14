@@ -22,5 +22,3 @@ jobs:
       - name: Run unit tests and generate coverage report
         run: |
           coverage run -m unittest -v
-          coverage report
-          coverage html
