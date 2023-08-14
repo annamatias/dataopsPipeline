@@ -6,8 +6,8 @@ from delta import configure_spark_with_delta_pip
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, IntegerType
 from src.hospital.ingestion_cardiovascular import read_csv, rename_columns, save_delta
 
-class PySparkTest(unittest.TestCase):
 
+class PySparkTest(unittest.TestCase):
 
     @classmethod
     def suppress_py4j_logging(cls):
